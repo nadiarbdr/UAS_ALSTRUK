@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+
+char nama[30],namab[30],email[100], u[10],hp[100];
+
+
+int main()
+{
+
+	printf("Nama	: Nadia Rachmasari Biduri \n");
+	printf("Npm	: 197006082 \n");
+	printf("Kelompok: 5 \n");
+ char pilih,elm;
+ 
+printf("----Program Registrasi Akun----\n");
+ 
+    
+	printf("Masukan Nama Depan : ");
+    scanf("%s",&nama);
+    
+    printf("Masukan Nama Belakang : ");
+    scanf("%s",&namab);
+    
+	printf("Masukan Email :  ");
+    scanf("%s",&email);
+    
+    printf("Masukan usia: ");
+    scanf("%d",&u);
+    
+    printf("Masukan no.hp: ");
+    scanf("%d",&hp);
+    
+ 	return 0;
+	
+	
+}
